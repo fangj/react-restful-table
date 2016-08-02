@@ -1,19 +1,6 @@
-# react-restful-table
-react table with restful CRUD
-
-
-git clone https://github.com/fangj/react-restful-table
-cd react-restful-table/examples
-node app.js
-
-visit http://localhost:3000
-
-![edit table](./screenshots/edittable.png)
-
-
-usage:
-```
-var RestfulTabl=require('react-restful-table');
+var React=require('react');
+var ReactDOM=require('react-dom');
+var RestfulTable=require('../lib/index.js');
 
 var selectRowProp = {
           mode: "radio",
@@ -29,4 +16,3 @@ ReactDOM.render(
 	</RestfulTable>,
   document.getElementById('container')
 );
-```
