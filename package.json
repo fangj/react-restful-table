@@ -1,6 +1,6 @@
 {
   "name": "react-restful-table",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react table with restful CRUD ",
   "main": "./lib/index.js",
   "scripts": {

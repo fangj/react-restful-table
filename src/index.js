@@ -66,7 +66,7 @@ class RestfulTable extends React.Component {
     }
     onAfterInsertRow(row){
       const {url,keyField}=this.props;
-      delete row[keyField];
+      // delete row[keyField];
       // console.log('insert',row);
       agent.post(url,row).then(resp=>{
         console.log(resp.body)
